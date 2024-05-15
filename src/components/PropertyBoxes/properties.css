@@ -1,0 +1,372 @@
+.Properties-Home-Container{ 
+   display: grid;
+   row-gap: 30px;
+   column-gap: 30px;
+   grid-template-columns: repeat(6, 1fr);
+   
+   overflow-x: auto;
+}
+
+.Properties-Home-Container::-webkit-scrollbar{ 
+    width: 0;
+    height: 5px;
+}
+
+.Properties-Home-Container::-webkit-scrollbar-track{ 
+    /* background-color: #2e2e2e; 
+    border-radius: 5px;  */
+    
+}
+
+.Properties-Home-Container::-webkit-scrollbar-thumb{ 
+    background-color: #703BF7;
+    border-radius: 5px;
+}
+
+.propertiesHome{ 
+    border: solid #262626 1px;
+    padding: 30px 30px;
+    border-radius: 12px;
+    color: white;
+
+    width: 413.33px;
+    height: auto;
+    /* height: 549px; */
+
+   /* display: grid;
+   gap: 24px;
+   place-items: center; */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 24px;
+}
+
+.Image1-ForProperty{ 
+    width: 353.33px;
+    height: 255px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.roomsAndMoreForProperty-Home{ 
+    display: flex;
+    gap: 6px;
+}
+
+.bedroom-svg-home, .bathroom-svg-home, .propertyType-svg-home{ 
+    padding:6px 14px;
+    border: solid #2e2e2e;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.priceForProperty-andDetails{ 
+    gap: 40px;
+    display: flex;
+}
+
+.priceForPropertyActual{ 
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.propertyDetailsActual button{ 
+    background-color: #703BF7;
+    border-radius: 8px;
+    padding: 14px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.propertyDetailsActual button:hover{ 
+    background-color: #703bf7ce;
+}
+
+.properties-home-text{ 
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.properties-home-text span{ 
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.properties-home-text span:hover{ 
+    color: #703BF7;
+}
+
+
+
+/* Media for screen sizes max 300px */
+@media all and (max-width: 300px) { 
+
+    .Properties-Home-Container{ 
+        display: grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        grid-template-columns: repeat(6, 1fr);
+        overflow-x: auto;
+     }
+
+    .properties-home-text h1{ 
+        font-size: 18px;
+    } 
+
+    .properties-home-text p{ 
+        font-size: 14px;
+    }
+
+    .roomsAndMoreForProperty-Home{ 
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       /* position: relative;
+       right: 45px; */
+    }
+
+    .priceForProperty-andDetails{ 
+        /* position: relative;
+        right: 27px; */
+    }
+
+    .Image1-ForProperty{ 
+        width: 240px;
+        height: fit-content;
+    }
+
+    .propertiesHome{ 
+        width: 270px;
+        /* padding: 30px 30px; */
+    }
+
+    .moneySignAndMoneyInput-Properties{ 
+        font-size: 11px;
+    }
+
+    .propertyDetailsActual button{ 
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .bedroom-svg-home, .bathroom-svg-home, .propertyType-svg-home{ 
+        border-radius: 28px;
+        padding: 10px 20px;
+    }
+
+    .bedroom-svg-home p, .bathroom-svg-home p{ 
+        font-size: 10px;
+    }
+
+}
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+    .Properties-Home-Container{ 
+        display: grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        grid-template-columns: repeat(6, 1fr);
+        overflow-x: auto;
+     }
+
+    .properties-home-text h1{ 
+        font-size: 25px;
+    } 
+
+    .properties-home-text p{ 
+        font-size: 16px;
+    }
+
+    .roomsAndMoreForProperty-Home{ 
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       /* position: relative;
+       right: 45px; */
+    }
+
+    .priceForProperty-andDetails{ 
+        /* position: relative;
+        right: 27px; */
+    }
+
+    .Image1-ForProperty{ 
+        width: 280px;
+        height: fit-content;
+    }
+
+    .propertiesHome{ 
+        width: 315px;
+        height: fit-content;
+        /* padding: 30px 30px; */
+    }
+
+    .moneySignAndMoneyInput-Properties{ 
+        font-size: 16px;
+    }
+
+    .propertyDetailsActual button{ 
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .bedroom-svg-home, .bathroom-svg-home, .propertyType-svg-home{ 
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .bedroom-svg-home p, .bathroom-svg-home p{ 
+        font-size: 11px;
+    }
+}
+/* screens at 301px to 400px closed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    .Properties-Home-Container{ 
+        display: grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        grid-template-columns: repeat(6, 1fr);
+        overflow-x: auto;
+     }
+
+    .properties-home-text h1{ 
+        font-size: 33px;
+    } 
+
+    .properties-home-text p{ 
+        font-size: 18px;
+    }
+
+    .roomsAndMoreForProperty-Home{ 
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       /* position: relative;
+       right: 45px; */
+    }
+
+    .priceForProperty-andDetails{ 
+        /* position: relative;
+        right: 27px; */
+    }
+
+    .Image1-ForProperty{ 
+        width: 320px;
+        height: fit-content;
+    }
+
+    .propertiesHome{ 
+        width: 370px;
+        height: fit-content;
+        /* padding: 30px 30px; */
+    }
+
+    .moneySignAndMoneyInput-Properties{ 
+        font-size: 18px;
+    }
+
+    .propertyDetailsActual button{ 
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .bedroom-svg-home, .bathroom-svg-home, .propertyType-svg-home{ 
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .bedroom-svg-home p, .bathroom-svg-home p{ 
+        font-size: 14px;
+    }
+}
+/* Media for screens at 401px to 500px */
+
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+
+    
+    .Properties-Home-Container{ 
+        display: grid;
+        row-gap: 30px;
+        column-gap: 30px;
+        grid-template-columns: repeat(6, 1fr);
+        overflow-x: auto;
+     }
+
+    .properties-home-text h1{ 
+        font-size: 33px;
+    } 
+
+    .properties-home-text p{ 
+        font-size: 18px;
+    }
+
+    .roomsAndMoreForProperty-Home{ 
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       /* position: relative;
+       right: 45px; */
+    }
+
+    .priceForProperty-andDetails{ 
+        /* position: relative;
+        right: 27px; */
+    }
+
+    .Image1-ForProperty{ 
+        width: 320px;
+        height: fit-content;
+    }
+
+    .propertiesHome{ 
+        width: 370px;
+        height: fit-content;
+        /* padding: 30px 30px; */
+    }
+
+    .moneySignAndMoneyInput-Properties{ 
+        font-size: 18px;
+    }
+
+    .propertyDetailsActual button{ 
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .bedroom-svg-home, .bathroom-svg-home, .propertyType-svg-home{ 
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .bedroom-svg-home p, .bathroom-svg-home p{ 
+        font-size: 14px;
+    }
+}
+/* screen sizes that are 501px to 700px */
+
+
+/* Media for screens that are at 701px to 1000px */
+@media all and (min-width: 1200px) and (max-width: 1380px) {
+
+   
+}
+/* Media for scrrens at 701px to 1000px closed */

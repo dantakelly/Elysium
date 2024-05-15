@@ -1,0 +1,1091 @@
+.TopLeftContainer-Home{ 
+    /* width: 100%;
+    height: 802px; */
+    border: solid #262626 1px;
+
+    position: relative;
+}
+
+.miniContainer-TopLeft-Home{ 
+    width: 690px;
+    height: 622px;
+    /* border: solid #262626 1px; */
+    padding-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.topLeft-texts-home h2{ 
+    font-size: 46px;
+    color: white;
+}
+
+.topLeft-texts-home p{ 
+    color: white;
+}
+
+.topLeft-Home-Buttons{ 
+   display: flex;
+   gap: 16px;
+}
+
+.topLeft-Home-Button-1, .topLeft-Home-Button-2{ 
+    padding: 14px 20px;
+    color: white;
+}
+
+.topLeft-Home-Button-1{ 
+    background-color: #1A1A1A;
+    border:solid #262626 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topLeft-Home-Button-1:hover{ 
+    background-color: #2e2e2e;
+}
+
+.topLeft-Home-Button-2{ 
+    background-color: #703BF7;
+    border:solid #262626 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topLeft-Home-Button-2:hover{ 
+     background-color: #703bf7da;
+}
+
+.topLeft-texts-home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topLeft-Home-Boxes{
+    display: flex;
+    gap: 16px;
+}
+
+.topLeftBoxes-Home-1, .topLeftBoxes-Home-2, .topLeftBoxes-Home-3{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 14px 20px;
+    background-color: #1A1A1A;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+
+/* Top Right Container Section */
+/*                            */
+.miniContainer-TopRight-Home{ 
+    width: 691px;
+    height: 622px;
+    background-color: #1A1A1A;
+    /* border: solid #262626 1px; */
+    /* padding-left: 80px; */
+}
+
+.miniContainer-TopRight-Home{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Top Bottom/Middle */
+.BoxesBelow-AtTop-Home{ 
+    /* position: absolute;
+    bottom: 0px; */
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 7px 20px;
+}
+
+.topMiddle-Home-Box1, .topMiddle-Home-Box2, .topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+    /* padding: 30px 16px; */
+    width: 347.5px;
+    height: 160px;
+    background-color: #1A1A1A;
+    border: solid white;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+/* Closed */
+
+/* Properties section container */
+.properties-home-container{ 
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.topTextsFor-Properties{ 
+    display: flex;
+    gap: 233px;
+}
+
+.properties-head-text{ 
+    color: white;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topTextsFor-Properties button{ 
+    padding: 14px 20px;
+    background-color: #272626;
+    border: solid #494949 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+/*  */
+
+.swipingContainer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    color: white;
+
+    position: relative;
+}
+
+.numberLineUnderProperties-Home{ 
+    width: 1370px;
+    border: solid #2e2e2e 1px;
+}
+
+.swipeBack-Home, .swipeFoward-Home{ 
+    width: 44px;
+    height: 44px;
+    border-radius: 60px;
+    border: #2e2e2e solid 1px;
+}
+
+.swipeThroughProperties-Home{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    gap: 1220px;
+}
+
+.actualSwipingorClicking-Home{ 
+    display: flex;
+    gap: 10px;
+}
+
+.swipeFoward-Home{ 
+    background-color: #262626;
+}
+
+.swipeBack-Home, .swipeFoward-Home{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* Properties section container closed */
+
+/* client section on home page */
+.client-section-home{ 
+    padding-left: 80px;
+    padding-top: 80px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.clientHeading-PAnd-ButtonSection-Home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pAndButton-client-Home{ 
+    /* display: flex;
+    justify-content: space-between; */
+
+    display: flex;
+    gap: 263px;
+}
+
+.pAndButton-client-Home button{ 
+    padding: 14px 20px;
+    background-color: #272626;
+    border: solid #494949 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.testimonilsSection{ 
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* client section on home page closed */
+
+
+/* Faq section */
+.faq-container-home{
+    padding-left: 80px;
+    padding-top:80px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color: white;
+}
+
+.frequently-asked-questions-Home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fax-boxes-home{ 
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* Faq Section closed */
+
+
+
+/* Media query section below */
+
+/* Media query for screens with max 300px */
+@media all and (max-width: 300px) {
+
+    #home-parent{
+        position: relative;
+        top: 90px;
+    }
+
+  .miniContainer-TopRight-Home{ 
+    display: none;
+  }
+
+  .miniContainer-TopLeft-Home{ 
+    padding: 0px;
+    width: unset;
+    height: unset;
+    /* gap: 40px; */
+    /* width: 690px;
+    height: 622px; */
+  }
+
+  .TopLeftContainer-Home{ 
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .topLeft-texts-home{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 16px;
+  }
+
+  .topLeft-texts-home h2{ 
+    font-size: 28px;
+  }
+
+  .topLeft-texts-home p{ 
+    font-size: 14px;
+  }
+
+  .topLeft-Home-Buttons{ 
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+    position: relative;
+    left: 11px;
+    gap: 10px;
+  }
+
+  .topLeft-Home-Boxes{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px;
+    text-align: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  .BoxesBelow-AtTop-Home{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-left: 10px;
+    padding-right:10px ;
+
+    background-color: #141414;
+    box-shadow: 3px 0px 5px 5px #2e2e2e;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .topMiddle-Home-Box1, .topMiddle-Home-Box2, 
+  .topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+    width: 134px;
+    height: 134px;
+    text-align: center;
+  }
+
+  .topTextsFor-Properties{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .properties-home-container{ 
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+    .starsIconAndH1 h1{ 
+        font-size: 28px;
+    }
+
+    .topTextsFor-Properties p{
+        font-size: 14px;
+    }
+
+    .topTextsFor-Properties button{ 
+       position: relative;
+       top: 658px;
+       display: none;
+    }
+
+  .swipingContainer{ 
+    margin: 20px;
+    display: flex;
+  }
+
+  .actualSwipingorClicking-Home{ 
+    position: relative;
+    right: -80%;
+  }
+
+  .swipeThroughProperties-Home p{ 
+    display: none;
+  }
+
+
+  .client-section-home{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 0; */
+  }
+
+  .pAndButton-client-Home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home h1{ 
+    font-size: 28px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home p{ 
+    font-size: 14px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home button{ 
+    position: relative;
+    top: 658px;
+    display: none;
+  }
+
+  .testimonilsSection{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .faq-container-home{ 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .frequently-asked-questions-Home{ 
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+
+  .faq-starIcon-And-Heading h1{ 
+    font-size: 28px;
+  }
+
+  .faq-p-And-button p{ 
+    font-size: 13.3px;
+  }
+
+  .fax-boxes-home{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+/* max media for 200px screens closed */
+
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+
+    #home-parent{
+        position: relative;
+        top: 90px;
+    }
+
+  .miniContainer-TopRight-Home{ 
+    display: none;
+  }
+
+  .miniContainer-TopLeft-Home{ 
+    padding: 0px;
+    width: unset;
+    height: unset;
+    /* gap: 40px; */
+    /* width: 690px;
+    height: 622px; */
+  }
+
+  .TopLeftContainer-Home{ 
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .topLeft-texts-home{ 
+    gap: 16px;
+  }
+
+  .topLeft-texts-home h2{ 
+    font-size: 31px;
+  }
+
+  .topLeft-texts-home p{ 
+    font-size: 16px;
+  }
+
+  .topLeft-Home-Buttons{ 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    position: relative;
+    gap: 10px;
+  }
+
+  .topLeft-Home-Boxes{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px;
+    text-align: center;
+
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+
+
+  .BoxesBelow-AtTop-Home{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 11px;
+    row-gap: 11px;
+    padding-left: 10px;
+    padding-right: 10px ;
+
+    background-color: #141414;
+    box-shadow: 0px 0px 0px 5px #2e2e2e;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .topMiddle-Home-Box1, .topMiddle-Home-Box2, 
+  .topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+    width: fit-content;
+    height: 145px;
+    text-align: center;
+  }
+
+  .topTextsFor-Properties{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .properties-home-container{ 
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+    .starsIconAndH1 h1{ 
+        font-size: 30px;
+    }
+
+    .topTextsFor-Properties p{
+        font-size: 15px;
+    }
+
+    .topTextsFor-Properties button{ 
+       position: relative;
+       top: 658px;
+       display: none;
+    }
+
+  .swipingContainer{ 
+    margin: 20px;
+    display: flex;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .actualSwipingorClicking-Home{ 
+    /* position: relative;
+    right: -80%; */
+
+   
+  }
+
+  .swipeThroughProperties-Home p{ 
+    display: none;
+  }
+
+
+  .client-section-home{ 
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-top: 0; */
+  }
+
+  .pAndButton-client-Home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home h1{ 
+    font-size: 30px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home p{ 
+    font-size: 15px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home button{ 
+    position: relative;
+    top: 658px;
+    display: none;
+  }
+
+  .testimonilsSection{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .faq-container-home{ 
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .frequently-asked-questions-Home{ 
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+
+  .faq-starIcon-And-Heading h1{ 
+    font-size: 31px;
+  }
+
+  .faq-p-And-button p{ 
+    font-size: 14px;
+  }
+
+  .fax-boxes-home{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+/* 301 to 400 px closed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    #home-parent{
+        position: relative;
+        top: 90px;
+    }
+
+  .miniContainer-TopRight-Home{ 
+    display: none;
+  }
+
+  .miniContainer-TopLeft-Home{ 
+    padding: 0px;
+    width: unset;
+    height: unset;
+    /* gap: 40px; */
+    /* width: 690px;
+    height: 622px; */
+  }
+
+  .TopLeftContainer-Home{ 
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .topLeft-texts-home{ 
+    gap: 16px;
+  }
+
+  .topLeft-texts-home h2{ 
+    font-size: 35px;
+  }
+
+  .topLeft-texts-home p{ 
+    font-size: 19px;
+  }
+
+  .topLeft-Home-Buttons{ 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    position: relative;
+    gap: 10px;
+  }
+
+  .topLeft-Home-Boxes{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px;
+    text-align: center;
+
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+
+
+  .BoxesBelow-AtTop-Home{ 
+    display: grid;
+    place-self: center;  /*Important thing to note*/
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 11px;
+    row-gap: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: #141414;
+    box-shadow: 0px 0px 0px 5px #2e2e2e;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .topMiddle-Home-Box1, .topMiddle-Home-Box2, 
+  .topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+    width: 180px;
+    height: 145px;
+    text-align: center;
+  }
+
+  .topTextsFor-Properties{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .properties-home-container{ 
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+    .starsIconAndH1 h1{ 
+        font-size: 37px;
+    }
+
+    .topTextsFor-Properties p{
+        font-size: 17px;
+    }
+
+    .topTextsFor-Properties button{ 
+       position: relative;
+       top: 658px;
+       display: none;
+    }
+
+  .swipingContainer{ 
+    margin: 20px;
+    display: flex;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .actualSwipingorClicking-Home{ 
+    /* position: relative;
+    right: -80%; */
+
+   
+  }
+
+  .swipeThroughProperties-Home p{ 
+    display: none;
+  }
+
+
+  .client-section-home{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-top: 0; */
+  }
+
+  .pAndButton-client-Home{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home h1{ 
+    font-size: 30px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home p{ 
+    font-size: 15px;
+  }
+
+  .clientHeading-PAnd-ButtonSection-Home button{ 
+    position: relative;
+    top: 658px;
+    display: none;
+  }
+
+  .testimonilsSection{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .faq-container-home{ 
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .frequently-asked-questions-Home{ 
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+
+  .faq-starIcon-And-Heading h1{ 
+    font-size: 31px;
+  }
+
+  .faq-p-And-button p{ 
+    font-size: 20px;
+  }
+
+  .fax-boxes-home{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Media for screens at 401px to 500px */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+
+  #home-parent{
+    position: relative;
+    top: 90px;
+}
+
+.miniContainer-TopRight-Home{ 
+display: none;
+}
+
+.miniContainer-TopLeft-Home{ 
+padding: 0px;
+width: unset;
+height: unset;
+/* gap: 40px; */
+/* width: 690px;
+height: 622px; */
+}
+
+.TopLeftContainer-Home{ 
+border: none;
+display: flex;
+flex-direction: column;
+gap: 50px;
+
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.topLeft-texts-home{ 
+gap: 16px;
+}
+
+.topLeft-texts-home h2{ 
+font-size: 35px;
+}
+
+.topLeft-texts-home p{ 
+font-size: 19px;
+}
+
+.topLeft-Home-Buttons{ 
+display: flex;
+flex-direction: column;
+width: auto;
+position: relative;
+gap: 10px;
+}
+
+.topLeft-Home-Boxes{ 
+display: grid;
+grid-template-columns: repeat(1, 1fr); 
+gap: 10px;
+text-align: center;
+
+/* padding-left: 10px;
+padding-right: 10px; */
+}
+
+
+.BoxesBelow-AtTop-Home{ 
+display: grid;
+place-self: center;  /*Important thing to note*/
+grid-template-columns: repeat(2, 1fr);
+column-gap: 11px;
+row-gap: 11px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+background-color: #141414;
+box-shadow: 0px 0px 0px 5px #2e2e2e;
+border-radius: 12px;
+width: fit-content;
+height: fit-content;
+}
+
+.topMiddle-Home-Box1, .topMiddle-Home-Box2, 
+.topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+width: 180px;
+height: 145px;
+text-align: center;
+}
+
+.topTextsFor-Properties{ 
+display: flex;
+flex-direction: column;
+gap: 0px;
+}
+
+.properties-home-container{ 
+padding-left: 30px;
+padding-top: 40px;
+padding-right: 30px;
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.starsIconAndH1 h1{ 
+    font-size: 37px;
+}
+
+.topTextsFor-Properties p{
+    font-size: 17px;
+}
+
+.topTextsFor-Properties button{ 
+   position: relative;
+   top: 658px;
+   display: none;
+}
+
+.swipingContainer{ 
+margin: 20px;
+display: flex;
+
+display: flex;
+justify-content: end;
+}
+
+.actualSwipingorClicking-Home{ 
+/* position: relative;
+right: -80%; */
+
+
+}
+
+.swipeThroughProperties-Home p{ 
+display: none;
+}
+
+
+.client-section-home{ 
+padding-left: 30px;
+padding-right: 30px;
+/* padding-top: 0; */
+}
+
+.pAndButton-client-Home{ 
+display: flex;
+flex-direction: column;
+gap: 0;
+}
+
+.clientHeading-PAnd-ButtonSection-Home h1{ 
+font-size: 30px;
+}
+
+.clientHeading-PAnd-ButtonSection-Home p{ 
+font-size: 15px;
+}
+
+.clientHeading-PAnd-ButtonSection-Home button{ 
+position: relative;
+top: 658px;
+display: none;
+}
+
+.testimonilsSection{ 
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+
+}
+
+.faq-container-home{ 
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.frequently-asked-questions-Home{ 
+/* padding-left: 10px;
+padding-right: 10px; */
+}
+
+.faq-starIcon-And-Heading h1{ 
+font-size: 31px;
+}
+
+.faq-p-And-button p{ 
+font-size: 20px;
+}
+
+.fax-boxes-home{ 
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+}
+/* screen sizes that are 501px to 700px */
+
+
+
+/* Media for screens that are at 701px to 1000px */
+@media all and (min-width: 1200px) and (max-width: 1380px) {
+
+  .miniContainer-TopRight-Home{ 
+    background-color: transparent;
+    border: none;
+  }
+
+  .topMiddle-Home-Box1, .topMiddle-Home-Box2, 
+  .topMiddle-Home-Box3, .topMiddle-Home-Box4{ 
+    width: 300px;
+  }
+
+  .actualSwipingorClicking-Home{
+    display: none;
+  }
+
+  .swipeThroughProperties-Home{
+    display: none;
+  }
+
+  .topTextsFor-Properties p{ 
+    font-size: 13.1px;
+  }
+
+  .pAndButton-client-Home{ 
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+  }
+
+  .testimonilsSection{
+
+  }
+}
+/* Media for scrrens at 701px to 1000px closed */

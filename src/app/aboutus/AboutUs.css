@@ -1,0 +1,1546 @@
+.AboutUs-Container-main{ 
+    padding-left: 80px;
+    /* padding-right: 80px; */
+    padding-top: 100px;
+    color: white;
+}
+
+
+.top-aboutus-container{ 
+    display: flex;
+    gap: 60px;
+}
+
+.topLeft-aboutus-container{ 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.topLeft-ImageH1P{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topLeft-aboutus-container h1{ 
+    font-size: 38px;
+}
+
+.topLeft-aboutus-container p{ 
+    font-size: 16px;
+}
+
+.topLeft-Boxes-About{ 
+    display: flex;
+    gap: 16px;
+}
+
+.topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, .topLeftAboutUs-Boxes3{ 
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    border: solid #262626 2px;
+    padding: 10px 10px;
+}
+
+.topRight-aboutus-container{ 
+    width: 610px;
+    height: 435px;
+    border: solid #262626 1px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* second container About us */
+.Second-Container-Main-Aboutus{ 
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    gap: 60px;
+}
+
+.second-Left-cont-About{ 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.second-Right-cont-About{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 50px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 5px #262626;
+}
+
+.box1-right-cont-About, .box2-right-cont-About, 
+.box3-right-cont-About, .box4-right-cont-About{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.IconAndH3-1-About, .IconAndH3-2-About, 
+.IconAndH3-3-About, .IconAndH3-4-About{ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* third container */
+.Third-Container-Main-Aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    padding-top: 100px;
+}
+
+.third-cont-top-About{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxes-third-cont-About{ 
+    display: flex;
+    gap: 30px;
+}
+
+.box1-third-cont-About, .box2-third-cont-About, 
+.box3-third-cont-About{ 
+    padding: 40px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 5px #262626;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 16px;
+}
+
+
+
+/* fourth container */
+.Fourth-Container-Main-Aboutus{ 
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.star-h1-p-fourthCont{ 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.boxes-fourth-cont-About{ 
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box1-fourth-cont-About, .box2-fourth-cont-About, .box3-fourth-cont-About,
+.box4-fourth-cont-About, .box5-fourth-cont-About, .box6-fourth-cont-About{ 
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.line-fourth-cont-about{ 
+    width: unset;
+    height: 14.8em;
+    border: solid #262626 1px;
+    position: absolute;
+}
+
+.steps-fourth-cont-about{ 
+    padding: 0 13px;
+}
+
+.secondaryBox-P-FourthCont-About{ 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 26em;
+    height: 12.4em;
+    border: solid #262626 1px;
+    padding: 40px 40px;
+    border-radius: 2px;
+    background: linear-gradient(to right, rgba(112, 59, 247, 0.1), rgba(221, 221, 221, 0.0));
+}
+
+.secondaryBox-P-FourthCont-About p{ 
+    font-size: 14.5px;
+}
+
+
+
+/* fifth container */
+.Fifth-Container-Main-Aboutus{ 
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.Icon-H1-P-Fifth-cont{ 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.teamPeople-boxes-fifth-cont{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.teamPeople-box1-fifth-cont{ 
+    width: fit-content;
+    height: fit-content;
+    padding: 24px 24px;
+    border: solid #262626 1px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    position: relative;
+}
+
+.namesAndposition-fifth-cont{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIconForBox-fifth-cont{ 
+    width: 60px;
+    height: 40px;
+    background-color: #703BF7;
+    border-radius: 43px;
+    
+    position: absolute;
+    bottom: 6em;
+    left: 7.7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIconForBox-fifth-cont img{ 
+    width: 30px;
+    height: 30px;
+    /* background-color: rgba(255, 255, 255, 0.503); */
+    border-radius: 50%;
+    padding: 2px 2px;
+}
+
+
+/* Sixth container */
+.Sixth-Container-Main-Aboutus{ 
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.Icon-H1-andP-sixth-cont-about{ 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.divMini-1-sixth-about{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.ABC-corporate-andButton-sixth-about{ 
+    display: flex;
+    align-items: center;
+    gap: 10.5em;
+}
+
+.ABC-corporate-andButton-sixth-about button{ 
+    padding: 14px 20px;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    color: white;
+    border: solid #262626;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ABC-corporate-andButton-sixth-about button:hover{ 
+    border: solid #703BF7;
+}
+
+.divMini-2-sixth-about{ 
+    display: flex;
+    gap: 7em;
+}
+
+.domainSection-box-sixth-about, .catogerySection-box-sixth-about{ 
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.secondaryboxIn-sixth-about{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    border: #262626 solid 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 24px 24px;
+}
+
+.boxes-cont-sixth-about{
+    /* border: #262626 solid 2px;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 5px #262626; */
+
+    display: flex;
+    gap: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box1-sixth-container-about, .box2-sixth-container-about{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: #262626 solid 2px;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 5px #262626;
+}
+
+
+
+
+
+/* Media query for screens with max 300px */
+@media all and (max-width: 300px) {
+
+    br{ 
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 30px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 14px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 10.5px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 14px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .boxes-third-cont-About{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 12.5px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:10.3px ;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 25px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 12px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+        width: 18em; 
+    }
+    /* closed */
+
+}
+/* 300px screens closed */
+
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+
+    br{  /*This is important as it removes the breakboints I made for the texts on larger screens*/
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 40px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 15px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 5px;
+        row-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, 
+    .topLeftAboutUs-Boxes3{ 
+        width: unset;
+        height: unset;
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About h1{ 
+        font-size: 40px;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 15px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .third-cont-top-About h2{ 
+        font-size: 2em;
+    }
+
+    .boxes-third-cont-About{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 16px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:15px;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 30px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 16px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+
+    }
+}
+/* closed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    br{  /*This is important as it removes the breakboints I made for the texts on larger screens*/
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 45px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 16px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 10px;
+        row-gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, 
+    .topLeftAboutUs-Boxes3{ 
+        width: unset;
+        height: unset;
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About h1{ 
+        font-size: 40px;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 16px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About p{ 
+        font-size: 17px;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .third-cont-top-About h2{ 
+        font-size: 2em;
+    }
+
+    .boxes-third-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 16px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:15px;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 30px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 16px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+
+    }
+}
+/* closed */
+
+
+/* Media for screens that are at 501px to 700px */
+@media all and (min-width: 501px) and (max-width: 700px) {
+
+    br{  /*This is important as it removes the breakboints I made for the texts on larger screens*/
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 45px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 16px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 10px;
+        row-gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, 
+    .topLeftAboutUs-Boxes3{ 
+        width: unset;
+        height: unset;
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About h1{ 
+        font-size: 40px;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 16px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About p{ 
+        font-size: 17px;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .third-cont-top-About h2{ 
+        font-size: 2em;
+    }
+
+    .boxes-third-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 16px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:15px;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: grid;
+        place-self: center;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+    .teamPeople-boxes-fifth-cont img{ 
+        width: 13em;
+    }
+
+    .socialIconForBox-fifth-cont{ 
+       display: none;
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 30px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 16px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+
+    }
+}
+
+
+/* Media for screens that are at 701px to 900px */
+@media all and (min-width: 701px) and (max-width: 900px) {
+
+    br{  /*This is important as it removes the breakboints I made for the texts on larger screens*/
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 45px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 16px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 10px;
+        row-gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, 
+    .topLeftAboutUs-Boxes3{ 
+        width: unset;
+        height: unset;
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About h1{ 
+        font-size: 40px;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 16px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About p{ 
+        font-size: 17px;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .third-cont-top-About h2{ 
+        font-size: 2em;
+    }
+
+    .boxes-third-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 16px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:15px;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: grid;
+        place-self: center;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .teamPeople-boxes-fifth-cont img{ 
+        /* width: 13em; */
+    }
+
+    .socialIconForBox-fifth-cont{ 
+       /* display: none; */
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 30px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 16px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+
+    }
+}
+/* closed */
+
+
+/* Media for screens that are at 901px to 1199px */
+@media all and (min-width: 901px) and (max-width: 1199px) {
+
+    br{  /*This is important as it removes the breakboints I made for the texts on larger screens*/
+        display: none;
+    }
+
+    .AboutUs-Container-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topRight-aboutus-container{ 
+        display: none;
+    }
+
+    .topLeft-ImageH1P h1{ 
+        font-size: 45px;
+    }
+
+    .topLeft-ImageH1P p{ 
+        /* font-size: 0.4em; */
+        font-size: 16px; 
+    }
+
+    .topLeft-Boxes-About{ 
+        display: grid;
+        column-gap: 10px;
+        row-gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .topLeftAboutUs-Boxes1, .topLeftAboutUs-Boxes2, 
+    .topLeftAboutUs-Boxes3{ 
+        width: unset;
+        height: unset;
+    }
+
+
+    /* Second Container */
+    .Second-Container-Main-Aboutus{ 
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-Left-cont-About h1{ 
+        font-size: 40px;
+    }
+
+    .second-Left-cont-About p{ 
+        font-size: 16px;
+    }
+
+    .second-Right-cont-About{ 
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+
+    .IconAndP-1-About p{ 
+        font-size: 17px;
+    }
+
+    .IconAndP-1-About, .IconAndP-2-About{ 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* second container closed */
+
+
+    /* Third Container */
+    .Third-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .third-cont-top-About h2{ 
+        font-size: 2em;
+    }
+
+    .boxes-third-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box1-third-cont-About, .box2-third-cont-About,
+    .box3-third-cont-About{ 
+        padding-left: 20px;
+    }
+    /*Third container closed*/
+
+    /* fourth container */
+    .Fourth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .star-h1-p-fourthCont h1{ 
+        font-size: 25px;
+    }
+
+    .star-h1-p-fourthCont p{ 
+        font-size: 16px;
+    }
+
+    .boxes-fourth-cont-About{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    .secondaryBox-P-FourthCont-About{ 
+        padding-left: 10px;
+        padding-top: 10px;
+        width: fit-content;
+    }
+
+    .secondaryBox-P-FourthCont-About p{ 
+        font-size:15px;
+    }
+    /* fourth container closed */
+
+    /* fifth container */
+    .Fifth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-P-Fifth-cont h1{ 
+        font-size: 25px;
+    }
+
+    .teamPeople-boxes-fifth-cont{ 
+        display: grid;
+        place-self: center;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .teamPeople-boxes-fifth-cont img{ 
+        /* width: 13em; */
+    }
+
+    .socialIconForBox-fifth-cont{ 
+       /* display: none; */
+    }
+
+    .teamPeople-box1-fifth-cont, .teamPeople-box2-fifth-cont, 
+    .teamPeople-box3-fifth-cont, .teamPeople-box4-fifth-cont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* closed */
+
+    /* Sixth container */
+    .Sixth-Container-Main-Aboutus{ 
+        padding-top: 80px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about h1{ 
+        font-size: 30px;
+    }
+
+    .Icon-H1-andP-sixth-cont-about p{ 
+        font-size: 16px;
+    }
+
+    .boxes-cont-sixth-about{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2-sixth-container-about{ 
+        display: none;
+    }
+
+    .box1-sixth-container-about, .box2-sixth-container-about{ 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .divMini-1-sixth-about{ 
+        display: flex;
+        gap: 5px;
+    }
+
+    .divMini-2-sixth-about{ 
+        display: flex; 
+        gap: 10px;
+    }
+
+    .ABC-corporate-andButton-sixth-about{ 
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .ABC-corporate-andButton-sixth-about button{ 
+
+    }
+}
+/* closed */

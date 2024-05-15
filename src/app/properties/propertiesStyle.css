@@ -1,0 +1,397 @@
+
+.top-container-propertiesPage{ 
+    width: 100%;
+    height: 448px;
+    background: linear-gradient(280deg, #262626, rgba(153, 153, 153, 0.1), rgba(255, 255, 255, 0.2));
+
+    display: flex;
+    flex-direction: column;
+    gap: 230px;
+
+    position: relative;
+}
+
+.heading-top-propertiesPage{ 
+    padding-top: 80px;
+    padding-left: 80px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.searchInputAndButton-propertiesPage{ 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background-color: #262626;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px;
+}
+
+.searchInputAndButton-propertiesPage button{ 
+    display: flex;
+    align-items: center;
+    /* background-color: #703BF7; */
+    background-color: #494848;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    gap: 6px;
+    border: none;
+    cursor: wait;
+}
+
+.searchInputAndButton-propertiesPage input{ 
+    width: 866px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+
+    padding: 16px 20px;
+    font-size: large;
+}
+
+.searchInputAndButton-propertiesPage input:focus{ 
+    outline: none;
+}
+
+#searchContainer-top-propertiesPage{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.boxes-top-PropertiesPage{ 
+    display: flex;
+    gap: 20px;
+
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+.Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+.BuildYear-DropDown-PropertiesPage{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #141414;
+    border: solid #494848 2px;
+    color: white;
+    border-radius: 8px;
+    width: 13em;
+    height: fit-content;
+    padding: 12px 14px;
+}
+
+.ImageAndText-PropertiesScton{ 
+    display: flex;
+    gap: 8px;
+}
+
+.dropdownIcon-1-propertiesSection,.dropdownIcon-2-propertiesSection,
+.dropdownIcon-3-propertiesSection, .dropdownIcon-4-propertiesSection, 
+.dropdownIcon-5-propertiesSection{ 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropdownIcon-1-propertiesSection:hover,.dropdownIcon-2-propertiesSection:hover,
+.dropdownIcon-3-propertiesSection:hover, .dropdownIcon-4-propertiesSection:hover, 
+.dropdownIcon-5-propertiesSection:hover{
+
+}
+
+/* The dropdowns for the front page */
+.Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+.Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+.BuildYear-DropDown-PropertiesPage{ 
+    position: relative;
+}
+
+.dropdown-location, .dropdown-Propertytype, .propertyPrice-dropdown, 
+.propertySize-dropdown{
+    position: absolute;
+    padding: 12px 20px;
+    top: 4.5em;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+
+    width: 500px;
+    height: fit-content;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* This is for the build date, different position as it is at the end of  the screen */
+.dropdownForBulildDate{
+    position: absolute;
+    padding: 12px 20px;
+    top: 4.5em;
+    bottom: 0px;
+    /* left: 0; */
+    right: 0;  /*This is the reason for the new li */
+    
+    width: 500px;
+    height: fit-content;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* /// */
+
+.dropdown-location li, .dropdown-Propertytype li, .propertyPrice-dropdown li,
+.propertySize-dropdown li, .dropdownForBulildDate li{ 
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #703BF7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dropdown-location li:hover, .dropdown-Propertytype li:hover, .propertyPrice-dropdown li:hover,
+.propertySize-dropdown li:hover, .dropdownForBulildDate li:hover{ 
+    font-weight: 500;
+}
+/* dropdowns closed */
+
+
+/* Second Container Properties Page */
+.second-container-propertiesPage{ 
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.h1AndP-forSecondCont-propertiesSection{ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.actualProperties-propertiesPage{
+}
+
+.theProperties-propsPage{
+     width: 25.9em;
+     height: fit-content;
+     background-color: #141414;
+     border: solid #999999 1px;
+     border-radius: 12px;
+     padding: 30px 30px;
+     
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+}
+
+.theProperties-propsPage p{ 
+    /* width: 21em; */
+}
+
+.theProperties-propsPage h4{ 
+    width: fit-content;
+    height: fit-content;
+    background-color: #262626;
+    border: #494848 solid 1px;
+    padding: 6px 12px;
+    border-radius: 28px;
+    font-size: 14px;
+}
+
+.h2AndP-theproperty-propsPage{ 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.propertyPrice-propsPage-AndButton{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceOfProperty{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.LinkButtonToViewPropertyDetails-propsPage button{ 
+    padding: 14px 20px;
+    border: none;
+    background-color: #703BF7;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.h2AndP-theproperty-propsPage span{ 
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.h2AndP-theproperty-propsPage span:active{ 
+    text-decoration: none;
+    color: #703BF7;
+}
+
+.actualProperties-propertiesPage{ 
+    /* display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 20px;
+    row-gap: 0px;
+    overflow-x: auto; */
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.actualProperties-propertiesPage::-webkit-scrollbar{ 
+    width: 0px;
+    height: 5px;
+}
+
+.actualProperties-propertiesPage::-webkit-scrollbar-thumb{ 
+    background-color: #703BF7;
+    border-radius: 5px;
+}
+/* Second Container Closed */
+
+/* Third Container properties page */
+.Third-Container-PropertiesPage{
+    padding-top: 80px;
+    padding-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color: white;
+}
+
+.Icon-H1-andP-ThirdCont-propertiesPage{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.form-input-propertiesPage{ 
+    width: 1279px;
+    height: 704px;
+    border: #494848 solid 1px;
+    padding: 50px 50px;
+    border-radius: 12px;
+}
+
+.form-input-propertiesPage form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-form-propsPage, .second-form-propsPage, .third-form-propsPage, .fourth-form-propsPage,
+.fifth-form-propsPage, .sixth-form-propsPage, .seventh-form-propsPage, .eight-form-propsPage, 
+.ninth-form-propsPage, .tenth-form-propsPage, .eleventh-form-propsPage, .twelve-form-propsPage { 
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ninth-form-propsPage input{ 
+    width: 574.5px !important;
+}
+
+.twelve-form-propsPage input{ 
+    width: 1179px !important;
+    height: 122px !important;
+    padding: 16px 20px;
+}
+
+
+.form-input-propertiesPage form input{ 
+    width: 272.25px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #1A1A1A;
+    outline: none;
+    border: #262626 solid 1px;
+    color: white;
+    padding: 16px 20px;
+}
+
+.form-input-propertiesPage form label{ 
+    color: white;
+    font-weight: 400;
+}
+
+#the-first-two-rows-propsPage-form{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px
+}
+
+#third-row-propsPage-form{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.tenth-form-propsPage{ 
+
+}
+
+.checkbox-form-propsPage{ 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms_and-conditions{ 
+    display: flex;
+    align-items: center;
+}
+
+.terms_and-conditions input{ 
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.checkbox-form-propsPage button{ 
+    padding: 14px 28px;
+    background-color: #703BF7;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+/* Third container closed */

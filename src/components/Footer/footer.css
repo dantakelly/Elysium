@@ -1,0 +1,568 @@
+.line-1footer, .line-2footer{ 
+    border: solid 1px #262626;
+    max-width: 100%;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.footer-block-one{
+    padding-top: 80px;
+    padding-left:80px;
+    padding-bottom:80px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pAndButton-footer{ 
+    display: flex;
+    gap: 233px;
+}
+
+.pAndButton-footer button{ 
+    background-color: #703BF7;
+    border-radius: 8px;
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pAndButton-footer button:hover{ 
+    background-color: #703bf7ce;
+}
+
+.Footer-Container{ 
+    position: relative;
+    top: 120px;
+}
+
+
+.theFooter{ 
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    gap: 80px;
+}
+
+.footerLogo-And-FooterInput{ 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+}
+
+.input-container-footer{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-container-footer img{ 
+    cursor: pointer;
+}
+
+.input-container-footer input{ 
+    background-color: transparent;
+    outline: none;
+    border: #262626 solid 1px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.the-foot-links{ 
+    color: white;
+    display: flex;
+    gap: 110px;
+}
+
+.home-footer-links p{ 
+    color: #999999;
+}
+
+.home-footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.home-footer-links ul li{ 
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.home-footer-links ul{ 
+    display: grid;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.copyright-footer-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #1A1A1A;
+
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.copyright-footer{ 
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.contactIcons-Footer{ 
+    display: flex;
+    gap: 8px;
+
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+.facebook-Icon-Footer, .Linkedin-Icon-Footer, .Twitter-Icon-Footer, .Youtube-Icon-Footer{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #141414;
+    cursor: pointer;
+
+    position: relative;
+    bottom: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:300px) {
+    .Footer-Container{ 
+        position: relative;
+        top: 130px;
+
+        padding-top: 60px;
+    }
+
+    .footer-block-one{ 
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-block-one h1{ 
+        font-size: 28px;
+    }
+
+    .pAndButton-footer{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pAndButton-footer p{ 
+        font-size: 13px;
+    }
+
+    .footerLogo-And-FooterInput{ 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .the-foot-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0px;
+        row-gap: 40px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .copyright-footer-container{ 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .copyright-footer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .copyright-footer p{ 
+        font-size: 14px;
+    }
+
+    .theFooter{
+        display: grid;
+        padding-left: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        gap: 40px;
+    }
+
+    .contactIcons-Footer{ 
+       /* position: relative; 
+       right: 14%; */
+       display: none;
+    }
+
+    .line-2footer{ 
+        position: relative;
+        top: 70px;
+    }
+
+    #home-footer-links-contactUs{ 
+        display: none; /*Had to hide as it was difficult to align*/
+    }
+
+    .home-footer-links li{ 
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+    .Footer-Container{ 
+        position: relative;
+        top: 130px;
+
+        padding-top: 70px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .footer-block-one{ 
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-block-one h1{ 
+        font-size: 30px;
+    }
+
+    .pAndButton-footer{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pAndButton-footer p{ 
+        font-size: 14.5px;
+    }
+
+    .footerLogo-And-FooterInput{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footerLogo-And-FooterInput h2{ 
+        font-size: 30px;
+    }
+
+    .the-foot-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .copyright-footer-container{ 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .copyright-footer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .copyright-footer p{ 
+        font-size: 14px;
+    }
+
+    .theFooter{
+        display: grid;
+        padding-left: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        gap: 40px;
+    }
+
+    .contactIcons-Footer{ 
+       /* position: relative; 
+       right: 14%; */
+       display: none;
+    }
+
+    .line-2footer{ 
+        position: relative;
+        top: 10px;
+    }
+
+    #home-footer-links-contactUs{ 
+        display: none; /*Had to hide as it was difficult to align*/
+    }
+
+    .home-footer-links li{ 
+        font-size: 14px;
+    }
+}
+/* Screens at 301px to 400px closed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    .Footer-Container{ 
+        position: relative;
+        top: 130px;
+
+        padding-top: 70px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .footer-block-one{ 
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer-block-one h1{ 
+        font-size: 30px;
+    }
+
+    .pAndButton-footer{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pAndButton-footer p{ 
+        font-size: 14px;
+    }
+
+    .footerLogo-And-FooterInput{ 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footerLogo-And-FooterInput h2{ 
+        font-size: 30px;
+    }
+
+    .the-foot-links{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .copyright-footer-container{ 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .copyright-footer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .copyright-footer p{ 
+        font-size: 14px;
+    }
+
+    .theFooter{
+        display: grid;
+        padding-left: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        gap: 40px;
+    }
+
+    .contactIcons-Footer{ 
+       /* position: relative; 
+       right: 14%; */
+       display: none;
+    }
+
+    .line-2footer{ 
+        position: relative;
+        top: 10px;
+    }
+
+    #home-footer-links-contactUs{ 
+        display: none; /*Had to hide as it was difficult to align*/
+    }
+
+    .home-footer-links li{ 
+        font-size: 14px;
+    }
+}
+/* Media for screens at 401px to 500px */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+
+    .Footer-Container{ 
+        position: relative;
+        top: 130px;
+
+        padding-top: 70px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .footer-block-one{ 
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer-block-one h1{ 
+        font-size: 30px;
+    }
+
+    .pAndButton-footer{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pAndButton-footer p{ 
+        font-size: 14px;
+    }
+
+    .footerLogo-And-FooterInput{ 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footerLogo-And-FooterInput h2{ 
+        font-size: 30px;
+    }
+
+    .the-foot-links{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .copyright-footer-container{ 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .copyright-footer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .copyright-footer p{ 
+        font-size: 14px;
+    }
+
+    .theFooter{
+        display: grid;
+        padding-left: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        gap: 40px;
+    }
+
+    .contactIcons-Footer{ 
+       /* position: relative; 
+       right: 14%; */
+       display: none;
+    }
+
+    .line-2footer{ 
+        position: relative;
+        top: 10px;
+    }
+
+    #home-footer-links-contactUs{ 
+        display: none; /*Had to hide as it was difficult to align*/
+    }
+
+    .home-footer-links li{ 
+        font-size: 14px;
+    }
+}
+/* screen sizes that are 501px to 700px */
+
+
+/* Media for screens that are at 701px to 1000px */
+@media all and (min-width: 1200px) and (max-width: 1380px) {
+
+   .pAndButton-footer button{ 
+        margin-left: 40px;
+   }
+
+   .pAndButton-footer p{
+        font-size: 12px;
+   }
+
+   .the-foot-links{ 
+    gap: 85px;
+   }
+}
+/* Media for scrrens at 701px to 1000px closed */

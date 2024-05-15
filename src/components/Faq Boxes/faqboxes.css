@@ -1,0 +1,107 @@
+.faq-container-box{ 
+    width: 413.33px;
+    /* height: 282px; */
+    height: auto;
+    padding: 40px 40px;
+    border: solid #262626 1px;
+    border-radius: 10px;
+
+    display: grid;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ReadMore-faqButton button{ 
+    padding: 14px 20px;
+    background-color: #272626;
+    border: solid #494949 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Media query section below */
+
+/* Media query for screens with max 300px */
+@media all and (max-width: 300px) {
+
+    .faq-container-box h2{ 
+        font-size: 18px;
+    }
+
+    .faq-container-box p{ 
+        font-size: 14px;
+    }
+
+    .faq-container-box{ 
+        padding: 10px 10px ;
+        width: 280px;
+    }
+}
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+    .faq-container-box h2{ 
+        font-size: 20px;
+    }
+
+    .faq-container-box p{ 
+        font-size: 16px;
+    }
+
+    .faq-container-box{ 
+        padding: 10px 10px ;
+        width: 310px;
+    }
+} 
+/* sreens at 301px to 400px clsoed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    .faq-container-box h2{ 
+        font-size: 20px;
+    }
+
+    .faq-container-box p{ 
+        font-size: 16px;
+    }
+
+    .faq-container-box{ 
+        padding: 10px 10px ;
+        width: fit-content;
+    }
+}
+/* Media for screens at 401px to 500px */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+
+    .faq-container-box h2{ 
+        font-size: 20px;
+    }
+
+    .faq-container-box p{ 
+        font-size: 16px;
+    }
+
+    .faq-container-box{ 
+        padding: 10px 10px ;
+        width: fit-content;
+    }
+}
+/* screen sizes that are 501px to 700px */
+
+
+/* Media for screens that are at 701px to 1000px */
+@media all and (min-width: 1200px) and (max-width: 1380px) {
+
+    .faq-container-box{
+        width: 23rem;
+    }
+}
+/* Media for scrrens at 701px to 1000px closed */

@@ -1,0 +1,764 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header-Container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30vh;
+    padding: 18px;
+    background-color: #1A1A1A;
+    z-index: 9999;
+}
+
+.Header-Container h1{ 
+    color: white;
+    border: none;
+}
+
+.Header-Container li {
+    margin-right: 24px; 
+    display: inline; 
+    transition: all 0.3s ease;
+
+    border: solid #1A1A1A 1px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.headLinkHome, .headLinkAbout, .headLinkProperties, .headLinkServices, .headLinkContactUs{ 
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Header-Container button{
+    color: white;
+    background-color: #141414;
+    /* width: 109px;
+    height: 49px; */
+    padding: 15px;
+    border-radius: 8px;
+    border: solid #262626 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Header-Container button:hover{ 
+    border: solid white 1px;
+}
+
+.Header-Container li:hover{ 
+    background-color: #141414;
+    border: solid #262626 1px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+/* These code are for the Popup, I cant see the classnames as it's a package....This styling is from there website  "Style Components" */
+.popup-content {
+    margin: auto;
+    background: linear-gradient(180deg, #A685FA, #DBCEFD);
+    width: 380px;
+    height: 430px;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+/* React Popup styling closed */
+
+.CancelIcon-Popup{ 
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: 0;
+    cursor: pointer;
+    border: none;
+}
+/* closed */
+
+/* Sign in method */
+/* the google sign in container itself */
+.TheActualGoogleSignIn{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* google container itself closed */
+
+.Google-Signin{ 
+    width: 300px;
+    height: 50px;
+    background-color: #FCFCFD;
+    border: solid white 2px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 20px 8px #A685FA; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.LoginAndSignup-Popup-Container{ 
+    position: relative;
+}
+
+.GoogleLogo{ 
+    width: 25px;
+    height: 25px;
+}
+
+.Google-Signin p{ 
+    font-style: 30px;
+    font-weight: bold;
+}
+
+.or-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    gap: 5px;
+    cursor: none !important;
+}
+
+.line-one-head, .line-two-head{ 
+    width: 140px;
+    height: 1px;
+    border: solid #FCFCFD 1px;
+}
+
+.signin-form{ 
+    position: absolute;
+    top: 110px;
+    gap: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin-form input{
+    /* background-color: #FCFCFD; 
+    width: 300px; */
+
+    outline: none;
+    height: 27px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background-color: #DBCEFD;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right:10px; 
+    color: #946CF9;
+}
+
+.rememberMe-And-Forgot-Password{ 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 13px;
+    gap: 105px;
+}
+
+.checked-Head{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checked-Head p{  
+    text-decoration: line-through;
+}
+
+.rememberMe-And-Forgot-Password a{
+    text-decoration: none;
+    color: #FCFCFD;
+}
+
+.signin-form button{ 
+   height: 50px;
+   border: solid #DBCEFD 2px;
+   border-radius: 8px;
+   background: #c0abf4;
+   font-size: 20px;
+   box-shadow: 0 0 100px #946CF9;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.signin-form button:hover{ 
+    /* border: #A685FA 2px;  */
+    border-radius: 4px;
+}
+
+.headLineButtom{ 
+    width: 300px; 
+    height: 0px;
+    border: solid #FCFCFD 1px;
+
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    /* top: 100%; */
+    transform: translate(-50%);
+
+}
+
+.actuallyGoToSignUp{ 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 13px;
+    gap: 108px;
+
+    position: absolute;
+    top: 375px;
+    font-size: 13px; 
+    left: 35px;
+}
+
+.actuallyGoToSignUp button{ 
+    padding: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: solid rgba(255, 255, 255, 0.717);
+
+}
+/* Sign in method closed */
+
+/* Toggle burger & side-bar hidden on big screens */
+.toggle-Burger{ 
+    display: none;
+}
+
+.side-bar-head-container{ 
+    display: none;
+}
+/*  */
+
+
+/* Media query section below */
+
+/* Media query for screens with max 300px */
+@media screen and (max-width: 300px) { 
+
+    /* Burger menu and side bar head shown */
+    .toggle-Burger{ 
+        display: flex;
+
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+    }
+
+    .side-bar-head-container{ 
+        display: inline-block;
+    }
+    /* closed */
+
+
+
+    .Header-Container ul{ 
+        display: none;
+    }
+
+    .Header-Container button{ 
+        display: none;
+    }
+
+
+    .Header-Container h1{ 
+        position: absolute;
+        left: 0;
+        padding: 0 10px;
+        
+    }
+
+    .Header-Container{ 
+        height: 4.5rem;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* Side bar head */
+    .side-bar-head-container{ 
+        height: 100%;
+        width: 70%;
+
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        top: 0%;
+        background-color: #e1e0e0;
+        padding: 0;
+        box-sizing: border-box;
+        position: fixed;
+
+        animation: myAnimation 0.5s ease-in-out;
+        display: none; /*This toggle will turn with the styling and toggle on the header.jsx page*/
+    }
+
+    @keyframes myAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translatex(0);
+        }
+    }
+
+    .side-bar-head{ 
+        position: absolute;
+        top: 10%;
+    }
+
+    .side-bar-items-head{ 
+        padding: 70%  50px;
+
+       display: flex; 
+       flex-direction: column;
+       gap: 50px;
+    }
+
+    .side-bar-items-head ul{
+        list-style-type: none;
+        text-decoration: none;
+
+        display: flex; 
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .side-bar-items-head button{ 
+        padding: 10px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #703BF7;
+        border: solid #262626 2px;
+        font-weight: bold;
+    }
+
+    .headLinkHome, .headLinkAbout, .headLinkProperties,
+    .headLinkServices, .headLinkContactUs{ 
+        font-weight: bold;
+        color: #1A1A1A;
+    }
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+      /* Burger menu and side bar head shown */
+      .toggle-Burger{ 
+        display: flex;
+
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+    }
+
+    .side-bar-head-container{ 
+        display: inline-block;
+    }
+    /* closed */
+
+
+
+    .Header-Container ul{ 
+        display: none;
+    }
+
+    .Header-Container button{ 
+        display: none;
+    }
+
+
+    .Header-Container h1{ 
+        position: absolute;
+        left: 0;
+        padding: 0 10px;
+        
+    }
+
+    .Header-Container{ 
+        height: 4.5rem;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* Side bar head */
+    .side-bar-head-container{ 
+        height: 100%;
+        width: 70%;
+
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        top: 0%;
+        background-color: #e1e0e0;
+        padding: 0;
+        box-sizing: border-box;
+        position: fixed;
+
+        animation: myAnimation 0.5s ease-in-out;
+        display: none; /*This toggle will turn with the styling and toggle on the header.jsx page*/
+    }
+
+    @keyframes myAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translatex(0);
+        }
+    }
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .side-bar-items-head{ 
+        padding: 70%  50px;
+
+       display: flex; 
+       align-self: center;
+       flex-direction: column;
+       gap: 50px;
+    }
+
+    .side-bar-items-head ul{
+        list-style-type: none;
+        text-decoration: none;
+
+        display: flex; 
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .side-bar-items-head button{ 
+        padding: 10px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #703BF7;
+        border: solid #262626 2px;
+        font-weight: bold;
+    }
+
+    .headLinkHome, .headLinkAbout, .headLinkProperties,
+    .headLinkServices, .headLinkContactUs{ 
+        font-weight: bold;
+        color: #1A1A1A;
+    }
+
+}
+/* media for 301 to 400 closed */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+       /* Burger menu and side bar head shown */
+       .toggle-Burger{ 
+        display: flex;
+
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+    }
+
+    .side-bar-head-container{ 
+        display: inline-block;
+    }
+    /* closed */
+
+
+
+    .Header-Container ul{ 
+        display: none;
+    }
+
+    .Header-Container button{ 
+        display: none;
+    }
+
+
+    .Header-Container h1{ 
+        position: absolute;
+        left: 0;
+        padding: 0 10px;
+        
+    }
+
+    .Header-Container{ 
+        height: 4.5rem;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* Side bar head */
+    .side-bar-head-container{ 
+        height: 100%;
+        width: 70%;
+
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        top: 0%;
+        background-color: #e1e0e0;
+        padding: 0;
+        box-sizing: border-box;
+        position: fixed;
+
+        animation: myAnimation 0.5s ease-in-out;
+        display: none; /*This toggle will turn with the styling and toggle on the header.jsx page*/
+    }
+
+    @keyframes myAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translatex(0);
+        }
+    }
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+    }
+
+    .side-bar-items-head{ 
+        padding: 70%  50px;
+
+       display: flex; 
+       flex-direction: column;
+       gap: 50px;
+    }
+
+    .side-bar-items-head ul{
+        list-style-type: none;
+        text-decoration: none;
+
+        display: flex; 
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .side-bar-items-head button{ 
+        padding: 10px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #703BF7;
+        border: solid #262626 2px;
+        font-weight: bold;
+    }
+
+    .headLinkHome, .headLinkAbout, .headLinkProperties,
+    .headLinkServices, .headLinkContactUs{ 
+        font-weight: bold;
+        color: #1A1A1A;
+    }
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+
+        display: flex;
+        justify-content: center;
+    }
+
+}
+/* Media for screens at 401px to 500px */
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+
+       /* Burger menu and side bar head shown */
+       .toggle-Burger{ 
+        display: flex;
+
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+    }
+
+    .side-bar-head-container{ 
+        display: inline-block;
+    }
+    /* closed */
+
+
+
+    .Header-Container ul{ 
+        display: none;
+    }
+
+    .Header-Container button{ 
+        display: none;
+    }
+
+
+    .Header-Container h1{ 
+        position: absolute;
+        left: 0;
+        padding: 0 10px;
+        
+    }
+
+    .Header-Container{ 
+        height: 4.5rem;
+        position: fixed;
+        width: 100%;
+    }
+
+    /* Side bar head */
+    .side-bar-head-container{ 
+        height: 100%;
+        width: 70%;
+
+        position: absolute;
+        z-index: 999;
+        right: 0;
+        top: 0%;
+        background-color: #e1e0e0;
+        padding: 0;
+        box-sizing: border-box;
+        position: fixed;
+
+        animation: myAnimation 0.5s ease-in-out;
+        display: none; /*This toggle will turn with the styling and toggle on the header.jsx page*/
+    }
+
+    @keyframes myAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translatex(0);
+        }
+    }
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+    }
+
+    .side-bar-items-head{ 
+        padding: 50%  50px;
+
+       display: flex; 
+       flex-direction: column;
+       gap: 50px;
+    }
+
+    .side-bar-items-head ul{
+        list-style-type: none;
+        text-decoration: none;
+
+        display: flex; 
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .side-bar-items-head button{ 
+        padding: 10px 5px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #703BF7;
+        border: solid #262626 2px;
+        font-weight: bold;
+    }
+
+    .headLinkHome, .headLinkAbout, .headLinkProperties,
+    .headLinkServices, .headLinkContactUs{ 
+        font-weight: bold;
+        color: #1A1A1A;
+    }
+
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+
+        display: flex;
+        justify-content: center;
+    }
+
+}
+/* screen sizes that are 501px to 700px */
+
+
+
+/* Media for screens that are at 701px to 1000px */
+@media all and (min-width: 1200px) and (max-width: 1380px) {
+
+
+    .side-bar-head{ 
+        /* position: absolute;
+        top: 10%; */
+
+        display: flex;
+        justify-content: center;
+    }
+     
+}
+/* Media for scrrens at 701px to 1000px closed */
