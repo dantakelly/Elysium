@@ -16,7 +16,7 @@ function TestimonialBoxes(props) {
                         <p> {props.testimonialText} </p>
                         </div>
                         <div className="profileOfTestimonial">
-                            <Image className="picOfTestimonial"  src={props.profilePhotoOfClient} width={0} height={0} />
+                            <Image className="picOfTestimonial"  src={props.profilePhotoOfClient} alt="client-images" width={0} height={0} />
                             <div className="textOfTestimonial">
                                 <p> {props.PersonWhoWroteTestimonial} </p>
                                 <p> {props.CountryOfTestimonialWriter} </p>

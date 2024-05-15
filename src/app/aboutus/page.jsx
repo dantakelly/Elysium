@@ -26,7 +26,7 @@ export default function aboutus() {
                 <div className="top-aboutus-container">
                     <div className="topLeft-aboutus-container">
                     <div className="topLeft-ImageH1P">
-                    <Image src={StarsIcon}></Image>
+                    <Image src={StarsIcon} alt=""></Image>
                     <h1>Our Journey</h1>
                      <p>Our story is one of continous growth and evaulation. We started as a small team with <br/>
                        big dreams, determined to create a real estate platform that transcend the <br/>
@@ -51,14 +51,14 @@ export default function aboutus() {
                     </div>
                     {/* Top-left about us closed */}
                     <div className="topRight-aboutus-container">
-                        <Image src={HomeTopRight}></Image>
+                        <Image src={HomeTopRight} alt=""></Image>
                     </div>
                 </div>
                 {/* top-aboutus-container closed */}
 
                 <div className="Second-Container-Main-Aboutus">
                     <div className="second-Left-cont-About">
-                        <Image src={StarsIcon}></Image>
+                        <Image src={StarsIcon} alt=""></Image>
                         <h1>Our Values</h1>
                         <p>Our story is one of the continous growth and evaulation. We <br/>
                            started as a small team with big dreams, determined to <br/> 
@@ -69,7 +69,7 @@ export default function aboutus() {
 
                         <div className="box1-right-cont-About">
                             <div className="IconAndH3-1-About">
-                                <Image src={SecondRightImage1}></Image>
+                                <Image src={SecondRightImage1} alt=""></Image>
                                 <h3>Trust</h3>
                             </div>
                             <div className="IconAndP-1-About">
@@ -80,7 +80,7 @@ export default function aboutus() {
 
                         <div className="box2-right-cont-About">
                             <div className="IconAndH3-1-About">
-                                <Image src={SecondRightImage2}></Image>
+                                <Image src={SecondRightImage2} alt=""></Image>
                                 <h3>Excellence</h3>                           
                             </div>
                             <div className="IconAndP-2-About">
@@ -91,7 +91,7 @@ export default function aboutus() {
 
                         <div className="box3-right-cont-About">
                             <div className="IconAndH3-3-About">
-                                <Image src={SecondRightImage3}></Image>
+                                <Image src={SecondRightImage3} alt=""></Image>
                                 <h3>Client-Centric</h3>                      
                             </div>
                             <div className="IconAndP-1-About">
@@ -102,7 +102,7 @@ export default function aboutus() {
 
                         <div className="box4-right-cont-About">
                             <div className="IconAndH3-4-About">
-                                <Image src={SecondRightImage4}></Image>
+                                <Image src={SecondRightImage4} alt=""></Image>
                                 <h3>Our Commitment</h3>
                             </div>
                             <div className="IconAndP-1-About">
@@ -115,7 +115,7 @@ export default function aboutus() {
 
                     <div className="Third-Container-Main-Aboutus">
                         <div className="third-cont-top-About">
-                            <Image src={StarsIcon}></Image>
+                            <Image src={StarsIcon} alt=""></Image>
                             <h2>Our Achievements</h2>
                             <p>Our story is one of continous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that <br/> 
                                transcend the ordinary.</p>
@@ -146,7 +146,7 @@ export default function aboutus() {
                         {/* Fourth-Container-Main-Aboutus */}
                         <div className="Fourth-Container-Main-Aboutus">
                             <div className="star-h1-p-fourthCont">
-                                <Image src={StarsIcon}></Image>
+                                <Image src={StarsIcon} alt=""></Image>
                                 <h1>Navigating the Elysium Experience</h1>
                                 <p>At Elysium, we've designed a straightfoward process to help you find and purchase your dream property with ease. Here's a step-by-step guide <br/> 
                                    to how it all works.</p>
@@ -229,7 +229,7 @@ export default function aboutus() {
                             {/* fifth-Container-Main */}
                             <div className="Fifth-Container-Main-Aboutus">
                                 <div className="Icon-H1-P-Fifth-cont">
-                                    <Image src={StarsIcon}></Image>
+                                    <Image alt="" src={StarsIcon}></Image>
                                     <h1>Meet the Elysium Team</h1>
                                     <p>At Elysium our success is driven by the didication and expertise of our team. Get to know the people behind our mission to make your real estate <br/> 
                                        dreams a reality.</p>
@@ -237,7 +237,7 @@ export default function aboutus() {
                                 <div className="teamPeople-boxes-fifth-cont">
                                     
                                         <div className="teamPeople-box1-fifth-cont">
-                                            <Image src={MaxMitchel}></Image>
+                                            <Image src={MaxMitchel}  alt=""></Image>
                                             <div className="socialIconForBox-fifth-cont"> <Link href="/">  <Image src={Instagram}></Image> </Link> </div>
                                             <div className="namesAndposition-fifth-cont">
                                                 <h3>Max Mitchell</h3>
@@ -246,7 +246,7 @@ export default function aboutus() {
                                         </div>
 
                                         <div className="teamPeople-box1-fifth-cont">
-                                            <Image src={SarahJohnson}></Image>
+                                            <Image src={SarahJohnson}  alt=""></Image>
                                             <div className="socialIconForBox-fifth-cont"> <Link href="/">  <Image src={Instagram}></Image> </Link> </div>
                                             <div className="namesAndposition-fifth-cont">
                                                 <h3>Sarah Johnson</h3>
@@ -255,7 +255,7 @@ export default function aboutus() {
                                         </div>
 
                                         <div className="teamPeople-box1-fifth-cont">
-                                            <Image src={DavidBrown}></Image>
+                                            <Image  alt="" src={DavidBrown}></Image>
                                             <div className="socialIconForBox-fifth-cont"> <Link href="/">  <Image src={Instagram}></Image> </Link> </div>
                                             <div className="namesAndposition-fifth-cont">
                                                 <h3>David Brown</h3>
@@ -264,7 +264,7 @@ export default function aboutus() {
                                         </div>
 
                                         <div className="teamPeople-box1-fifth-cont">
-                                            <Image src={MichaelTurner}></Image>
+                                            <Image  alt="" src={MichaelTurner}></Image>
                                             <div className="socialIconForBox-fifth-cont"> <Link href="/">  <Image src={Instagram}></Image> </Link> </div>
                                             <div className="namesAndposition-fifth-cont">
                                                 <h3>Michael Turner</h3>
@@ -277,7 +277,7 @@ export default function aboutus() {
                                  {/* Sixth Container */}
                                  <div className="Sixth-Container-Main-Aboutus">
                                     <div className="Icon-H1-andP-sixth-cont-about">
-                                        <Image src={StarsIcon}></Image>
+                                        <Image  alt="" src={StarsIcon}></Image>
                                         <h1>Our Valued Clients</h1>
                                         <p>At Elysium, we had the privileage of working with a diverse range of cliens across various industries. Here ase some of the clients we've had <br/> 
                                            the pleasure of searving.</p>
@@ -294,12 +294,12 @@ export default function aboutus() {
                                                     </div>
                                                     <div className="divMini-2-sixth-about">
                                                         <div className="domainSection-box-sixth-about">
-                                                            <Image src={domainIcon}></Image>
+                                                            <Image  alt="" src={domainIcon}></Image>
                                                             <h4>Commercial Real Estate</h4>
                                                         </div>
                                                         <div className="catogerySection-box-sixth-about">
                                                                 <div className="line-div-catogery-sixth-about"></div>
-                                                            <Image src={catogeryIcon}></Image>
+                                                            <Image  alt="" src={catogeryIcon}></Image>
                                                             <h4>Luxry Home Development</h4>
                                                         </div>
                                                         </div>
@@ -321,12 +321,12 @@ export default function aboutus() {
                                                     </div>
                                                     <div className="divMini-2-sixth-about">
                                                         <div className="domainSection-box-sixth-about">
-                                                            <Image src={domainIcon}></Image>
+                                                            <Image  alt="" src={domainIcon}></Image>
                                                             <h4>Commercial Real Estate</h4>
                                                         </div>
                                                         <div className="catogerySection-box-sixth-about">
                                                                 <div className="line-div-catogery-sixth-about"></div>
-                                                            <Image src={catogeryIcon}></Image>
+                                                            <Image  alt="" src={catogeryIcon}></Image>
                                                             <h4>Retail Space</h4>
                                                         </div>
                                                         </div>

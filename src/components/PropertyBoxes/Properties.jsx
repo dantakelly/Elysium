@@ -11,7 +11,7 @@ function Properties(props) {
     return(
         <div className="propertiesHome">
           <div className="propertyImg-Home">
-          <Image className="Image1-ForProperty" src={props.imageProperty} width={0} height={0} />
+          <Image className="Image1-ForProperty" src={props.imageProperty} alt="property-boxes" width={0} height={0} />
           </div>
           <div className="properties-home-text">
             <h1>{props.titleProperty}</h1>
