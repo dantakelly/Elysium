@@ -24,8 +24,9 @@ import ImageOne from "../components/assets/Home Page Assets/Image one Property.s
 import ImageTwo from "../components/assets/Home Page Assets/Image two property.svg"
 import ImageThree from "../components/assets/Home Page Assets/Image three Property.svg"
 import ProfilePhotoOne from "../components/assets/Home Page Assets/Profile Photo Of Client One.svg"
-import ProfilePhotoTwo from "../components/assets/Home Page Assets/Profile Photo Of Client Two.svg"
-import ProfilePhotoThree from "../components/assets/Home Page Assets/Profile Photo Of Client Three.svg"
+
+import ProfilePhotoTwo from "../components/assets/Home Page Assets/Profile photo of client Two.svg"
+import ProfilePhotoThree from "../components/assets/Home Page Assets/Profile photo of client three.svg"
 
 import swipeBack from "../components/assets/Home Page Assets/swipe back.svg"
 import swipeFoward from "../components/assets/Home Page Assets/swipe foward.svg"
