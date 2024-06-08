@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.topLeft-Home-Button-2{
+  width: 100%;
+}
+
 .miniContainer-TopLeft-Home{ 
     width: 690px;
     height: 622px;
