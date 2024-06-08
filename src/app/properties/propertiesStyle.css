@@ -252,6 +252,7 @@
     cursor: pointer;
 }
 
+
 .h2AndP-theproperty-propsPage span{ 
     font-weight: bold;
     cursor: pointer;
@@ -395,3 +396,1093 @@
     cursor: pointer;
 }
 /* Third container closed */
+
+
+
+
+
+/* Media query for screens with max 300px */
+@media all and (max-width: 300px) {
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top:20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        width: fit-content;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        width: fit-content;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 250px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 190px;
+        height: 200px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 10px;
+    }
+
+    .theProperties-propsPage h1{ 
+        font-size: 12px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 13px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 5px 5px;
+        width: 100px;
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 13px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 240px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 240px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 240px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 240px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 8px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Media  for small screens 300 max closed*/
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top:20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        /* width: fit-content; */
+        width: 280px;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        /* width: fit-content; */
+        padding-left:10px;
+        width: 300px;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 275px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 250px;
+        height: 200px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 10px;
+    }
+
+    .theProperties-propsPage h1{ 
+        font-size: 12px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 14px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 5px 5px;
+        width: 100px;
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 13px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 280px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 280px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 280px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 280px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 13px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Media for scrrens 301 to 400 closed */
+
+
+
+/* Media for screens that are at 401px to 500px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top:20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        /* width: fit-content; */
+        width: 400px;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        /* width: fit-content; */
+        padding-left:10px;
+        width: 400px;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 375px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 300px;
+        height: 250px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 12px;
+    }
+
+    .theProperties-propsPage h1{ 
+        font-size: 15px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 14px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 14px 10px;
+        /* width: 100px; */
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 20px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 380px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 380px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 380px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 380px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 13px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Screen sizes that are 401 to 500 closed */
+
+
+
+/* Media for screens that are at 501px to 700px */
+@media all and (min-width: 501px) and (max-width: 700px) {
+
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top:20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        /* width: fit-content; */
+        width: 500px;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        /* width: fit-content; */
+        padding-left:10px;
+        width: 500px;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 475px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 380px;
+        height: 260px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 15px;
+    }
+
+    .theProperties-propsPage h2{ 
+        font-size: 27px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 16px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 14px 10px;
+        /* width: 100px; */
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 20px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 200px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        width: fit-content;
+        width: 430px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 430px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 430px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 13px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Media for screens at 501 to 700px closed */
+
+
+
+/* Media for screens that are at 701px to 900px */
+@media all and (min-width: 701px) and (max-width: 900px) {
+
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top: 20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        /* width: fit-content; */
+        width: 800px;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        /* width: fit-content; */
+        padding-left:10px;
+        width: 800px;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 775px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 380px;
+        height: 260px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 15px;
+    }
+
+    .theProperties-propsPage h2{ 
+        font-size: 27px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 16px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 14px 10px;
+        /* width: 100px; */
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 20px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 200px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px !important;
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        width: fit-content;
+        width: 230px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 480px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 775px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 13px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Media for 701 to 900px closed */
+
+
+/* Media for screens that are at 901px to 1199px */
+@media all and (min-width: 901px) and (max-width: 1199px) {
+
+    br{ 
+        display: none;
+    }
+
+    .Main-Container-Properties-Page{ 
+        padding-top: 20px;
+    }
+
+    .top-container-propertiesPage{ 
+       gap: 60px;
+       height: fit-content;
+       padding-bottom: 20px;
+    }
+
+    .heading-top-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #searchContainer-top-propertiesPage{
+        gap: 10px;
+    }
+
+    .searchInputAndButton-propertiesPage button{ 
+        display: none;
+    }
+
+    .searchInputAndButton-propertiesPage input{ 
+        width: 15rem;
+        background-color: #141414;
+        box-shadow: 0px 0px 5px 5px #262626;
+        /* width: fit-content; */
+        width: 800px;
+    }
+
+    .searchInputAndButton-propertiesPage{ 
+        background-color: unset;
+    }
+
+    .boxes-top-PropertiesPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #1c1c1c;
+        /* width: fit-content; */
+        padding-left:10px;
+        width: 800px;
+    }
+
+    .Location-DropDown-PropertiesPage, .PropertyType-DropDown-PropertiesPage,
+    .Pricing-DropDown-PropertiesPage, .SizeOfProperty-DropDown-PropertiesPage,
+    .BuildYear-DropDown-PropertiesPage{ 
+        width: 775px;
+    }
+
+
+    /* Second container */
+    .second-container-propertiesPage{ 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    /* the properties datas */
+    .actualProperties-propertiesPage{
+        padding: 10px 0px;
+    }
+
+    .theProperties-propsPage img{ 
+        width: 380px;
+        height: 260px;
+    }
+
+    .theProperties-propsPage{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .theProperties-propsPage h4{ 
+        font-size: 15px;
+    }
+
+    .theProperties-propsPage h2{ 
+        font-size: 27px;
+    }
+
+    .theProperties-propsPage p{ 
+        font-size: 16px;
+    }
+
+    .theProperties-propsPage button{
+        padding: 14px 10px;
+        /* width: 100px; */
+    }
+
+    .priceOfProperty h3{ 
+        font-size: 20px;
+    }
+    /* properties data closed */
+    /* secodn contianer closed */
+
+    /* Third Container */
+    .Third-Container-PropertiesPage{ 
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Form Section */
+    .form-input-propertiesPage{
+        height: fit-content;
+        width: fit-content;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        align-self: center;
+
+    }
+
+    #the-first-two-rows-propsPage-form{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #the-first-two-rows-propsPage-form input{ 
+        /* width: fit-content; */
+        width: 200px;
+
+    }
+
+    #third-row-propsPage-form{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px !important;
+        gap: 30px;
+    }
+
+    #third-row-propsPage-form input{ 
+        width: fit-content;
+        width: 230px;
+    }
+
+    .ninth-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 480px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .twelve-form-propsPage input{ 
+        /* width: fit-content !important; */
+        width: 775px !important;
+    }
+
+    .checkbox-form-propsPage{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .terms_and-conditions p{ 
+        font-size: 13px;
+    }
+
+    .terms_and-conditions{ 
+        display: flex;
+        gap: 8px;
+    }
+    /* Form Section Closed */
+    /* Third Container Closed */
+}
+/* Media for scrrens at 901 to 1199px closed */

@@ -1,5 +1,5 @@
 // import Image from "next/image"
-// import Link from "next/link"
+import Link from "next/link"
 
 // import SeasideVillaImg from "./assets/Seaside Villa Image.svg"
 // import next from "next"
@@ -25,7 +25,7 @@ export const data = [{
     "Property_Name": "Seaside Serenity Villa",
     "Property_Info": "Wake up to the soothing melody of waves. This beachfront villa offers...",
     "Property_Price": "$1,250,000",
-    "Link_To_View_Property": "View Property Details",
+    "Link_To_View_Property": <Link style={{color: 'white', textDecoration: 'none'}} href="/properties/property-details/property-1">View Property Details</Link>,
     "PropertyType": "Villa",
     "PropertySize": " 600-900 square feet",
     "BuildYear": "2020"

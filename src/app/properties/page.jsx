@@ -1,11 +1,15 @@
 "use client"
 
+import prisma from "../../../lib/prisma"
 import properties from "./propertiesStyle.css"
 import searcIcon from "./assets/Serach Icon.svg"
 import Image from "next/image"
 import { use, useState } from "react"
 import { useEffect } from "react"
 import Link from "next/link"
+import {data} from "@/components/propertiesData/data"
+import Router from 'next/router';
+
 
 import locationIcon from "./assets/Location Icon.svg"
 import propertyIcon from "./assets/Property Icon.svg"
@@ -15,8 +19,6 @@ import calenderIcon from "./assets/Calender Icon.svg"
 import dropdownIcon from "./assets/Dropdown Icon.svg"
 import lineIcon from "./assets/Line Icon.svg"
 import StarsIcon from "@/components/assets/Home Page Assets/mini stars for home page.svg"
-
-import {data} from "@/components/propertiesData/data"
 
 function Properties() { 
 
@@ -71,6 +73,43 @@ function Properties() {
         const ClickToToggleBuildDate = () => { 
             setDropdownForPropertyBuildDate(!dropdownForPropertyBuildDate)
         }
+
+
+        // form functions
+        const [firstname, setfirstname] = useState("")
+        const [lastname, setlastname] = useState("")
+        const [email, setemail] = useState("")
+        const [phone, setphone] = useState("")
+        const [location, setlocation] = useState("")
+        const [propertytype, setpropertytype] = useState("")
+        const [bathrooms, setbathrooms] = useState("")
+        const [bedrooms, setbedrooms] = useState("")
+        const [budget, setbudget] = useState("")
+        const [preferredcontactone, setpreferredcontactone] = useState("")
+        const [preferredcontacttwo, setpreferredcontacttwo] = useState("")
+        const [message, setmessage] = useState("")
+
+        const SubmitForm = async (event) => { 
+            // event.preventDefault();
+            
+            try { 
+                const formsent = { firstname, lastname, email, phone, location, propertytype,
+                                   bathrooms, bedrooms, budget, preferredcontactone,
+                                   preferredcontacttwo, message }; 
+
+                await fetch('api/form-submission', { 
+                    method: 'POST', 
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formsent)
+                })
+
+                } catch (error) { 
+                    console.log(error)
+                    // alert("The code results in an error")
+                }
+            }
+
+        // form functions closed
     // closed
 
     return(
@@ -228,47 +267,71 @@ function Properties() {
                        perfect match. Don't wait; let's embark on this exciting journey together.</p>
                 </div>
                 <div className="form-input-propertiesPage">
-                    <form>
+                    <form method="POST" onSubmit={SubmitForm}>
                     <div id="the-first-two-rows-propsPage-form">
 
                         <div className="first-form-propsPage">
                         <label >First Name</label>
-                        <input type="text" placeholder="Enter First Name"></input>
+                        <input type="text" placeholder="Enter First Name"
+                               value={firstname}
+                               onChange={(e) => setfirstname(e.target.value)} >
+                            </input>
                         </div>
 
                         <div className="second-form-propsPage">
                         <label>Last Name</label>
-                        <input type="text" placeholder="Enter Last Name"></input>
+                        <input type="text" placeholder="Enter Last Name" 
+                            value={lastname} 
+                            onChange={(e) => setlastname(e.target.value)} >
+                            </input>
                             </div>
 
                         <div className="third-form-propsPage">
                         <label>Email</label>
-                        <input type="email" placeholder="Enter your Email"></input>
+                        <input type="email" placeholder="Enter your Email"  
+                        value={email} 
+                        onChange={(e) => setemail(e.target.value)} >       
+                        </input>
                             </div>
 
                         <div className="fourth-form-propsPage">
                         <label>Phone</label>
-                        <input type="number" placeholder="Enter Phone Number"></input>
+                        <input type="number" placeholder="Enter Phone Number"  
+                        value={phone} 
+                        onChange={(e) => setphone(e.target.value)} >
+                        </input>
                             </div>
 
                         <div className="fifth-form-propsPage">
                         <label>Preferred Location</label>
-                        <input type="search" placeholder="Select Location"></input>
+                        <input type="search" placeholder="Select Location"
+                        value={location} 
+                        onChange={(e) => setlocation(e.target.value)} >
+                        </input>
                             </div>
 
                         <div className="sixth-form-propsPage">
                         <label>Property Type</label>
-                        <input type="search" placeholder="Select Property Type"></input>
+                        <input type="search" placeholder="Select Property Type"
+                        value={propertytype} 
+                        onChange={(e) => setpropertytype(e.target.value)} >
+                        </input>
                             </div>
 
                         <div className="seventh-form-propsPage">
                         <label>No. of Bathrooms</label>
-                        <input type="search" placeholder="Select no. of Bathrooms"></input>
+                        <input type="number" placeholder="Select no. of Bathrooms"
+                        value={bathrooms} 
+                        onChange={(e) => setbathrooms(e.target.value)} >
+                        </input>
                             </div>
 
                         <div className="eight-form-propsPage">
                         <label>No. of Bedrooms</label>
-                        <input type="search" placeholder="Select no. of Bedrooms"></input>
+                        <input type="number" placeholder="Select no. of Bedrooms"
+                        value={bedrooms} 
+                        onChange={(e) => setbedrooms(e.target.value)} >
+                        </input>
                             </div>
                         </div>
                              {/*  */}
@@ -277,17 +340,26 @@ function Properties() {
 
                             <div className="ninth-form-propsPage">
                             <label>Budget</label>
-                            <input type="search" placeholder="Select Budget"></input>
+                            <input type="number" placeholder="Select Budget"
+                            value={budget} 
+                            onChange={(e) => setbudget(e.target.value)} >
+                            </input>
                                 </div>
 
                             <div className="tenth-form-propsPage">
                                     <label>Preferred Contact Method</label>
-                                    <input type="number" placeholder="Enter Your Number"></input>
+                                    <input type="number" placeholder="Enter Your Number"
+                                    value={preferredcontactone} 
+                                    onChange={(e) => setpreferredcontactone(e.target.value)} >
+                                    </input>
                                 </div>
 
                                 <div className="eleventh-form-propsPage">
                                     <label>Preferred Contact #2</label>
-                                    <input type="email" placeholder="Enter Your Email"></input>
+                                    <input type="email" placeholder="Enter Your Email"
+                                    value={preferredcontacttwo} 
+                                    onChange={(e) => setpreferredcontacttwo(e.target.value)} >
+                                    </input>
                                 </div>
                         </div>
                             {/*  */}
@@ -296,7 +368,10 @@ function Properties() {
 
                             <div className="twelve-form-propsPage">
                             <label>Message</label>
-                            <input type="text" placeholder="Enter your Message here..."></input>
+                            <input type="text" placeholder="Enter your Message here..."
+                             value={message}  
+                             onChange={(e) => setmessage(e.target.value)}>
+                            </input>
                                 </div>
                         </div>
                             {/*  */}
@@ -304,12 +379,14 @@ function Properties() {
                         <div id="Checkbox-andButton-form-propsPage">
                             <div className="checkbox-form-propsPage">
                                 <div className="terms_and-conditions">
-                                    <input type="checkbox"></input>
+                                    <input type="checkbox"
+                                         >
+                                    </input>
                                     <p>I agree with <Link href="/">
                                     <span>Terms of Use and Privacy Policy</span>
                                     </Link></p>
                                     </div>
-                                <button>Send Your Message</button>
+                                <button type="submit" onClick={SubmitForm}>Send Your Message</button>
                             </div>
                         </div>
                     </form>

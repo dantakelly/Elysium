@@ -1,0 +1,1175 @@
+#property-details-main-container{ 
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+/* Top Container */
+.top-property-details{ 
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 58%;
+}
+
+.coverOver-location-propsDetails{
+    display: flex;
+    align-items: center;
+    gap: 45em;
+}
+
+.property-name-and-location{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.the-loction-icon-and-location-props-details{
+    display: flex;
+    gap: 4px;
+
+    border: solid 1px #262626;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+
+.the-price-top-propsDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+/* Top Container Closed */
+
+/* Second Container Property Details */
+.second-container-property-details{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #262626;
+    border-radius: 12px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.top-image-active-propDetails{
+    width: fit-content;
+    padding: 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.top-image-active-propDetails img{ 
+    width: 122.22px;
+    height: 74px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #141414; */
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@keyframes fade-in { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*  */
+.the-loction-icon-and-location-props-details img{
+    animation-name: spinner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(360deg);
+      }
+}
+/*  */
+
+.SECOND-top-image-active-propDetails{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.SECOND-top-image-active-propDetails img{
+    width: 585px;
+    height: 507;
+    border-radius: 10px;
+}
+
+.slidingButtons-PD{ 
+    width: fit-content;
+    padding: 8px 8px;
+    background-color: #141414;
+    margin-top: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left_arrow_pd, .right_arrow_pd{ 
+    border: solid 2px #262626;
+    border-radius: 69px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right_arrow_pd{
+    background-color: #1A1A1A;
+}
+
+.blueTinyLines-pd-cont{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.lines-blue-pd1, .lines-blue-pd2, .lines-blue-pd3, .lines-blue-pd4,
+.lines-blue-pd5, .lines-blue-pd6 {
+    width: 11.17px;
+    height: 3px;
+    background-color: #4D4D4D;
+    border-radius: 60px;
+}
+/* Second Container Property Details Closed */
+
+
+/* Third Container -- Property Details */
+.third-container-property-details{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.leftSide-third-container-property-details{ 
+    padding: 40px 40px;
+    border: solid #4D4D4D 1px;
+    border-radius: 10px;
+    /* width: fit-content; */
+    height: fit-content; 
+    width: 630px;
+    /* height: 307px; */
+}
+
+.third_pd_left_h3Andp{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bottompart-left-text-third-pd hr{
+    border: solid 1px #262626;
+}
+
+.bottompart-left-text-third-pd{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.roomsNumberAndSize-pd { 
+    display: flex;
+}
+
+.RightSide-third-container-property-details{ 
+    padding: 40px 40px;
+    border: solid #4D4D4D 1px;
+    border-radius: 12px;
+    width: 585px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.thirdDivs-Right-contPD{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.third-textscontpd-1, .third-textscontpd-2, .third-textscontpd-3,
+.third-textscontpd-4, .third-textscontpd-5{
+    display: flex;
+    gap: 10px;
+    padding: 14px 16px;
+    align-items: center;
+    background: linear-gradient(280deg, #1a1a1a12, #262626);
+
+    position: relative;
+}
+
+.blueLine-thirdcont-pd{
+    border: solid 1px #703BF7;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    height: 100%;
+}
+/* Third Container -- PD closed */
+
+/*  Fourth Container -- Property Details */
+.fourth-cont-propertiesDetails{ 
+    display: flex;
+    margin-top: 80px;
+    gap: 80px;
+
+}
+
+#form_id_right_fourthCont_pd{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 40px 40px;
+}
+
+.propertiesDetails-leftSide-forth-pd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.propertiesDetails-leftSide-forth-pd h1{
+    font-size: 35px;
+}
+
+.fourContPDInputRight-1, .fourContPDInputRight-2{ 
+    /* display: flex;
+    align-items: center;
+    gap: 30px; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.theLabelAndInputPD input {
+ 
+    width: 338.5px;
+    height: 52px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: solid 1px #262626;
+    background-color: #1A1A1A;
+
+    display: flex;
+    margin-top: 14px;
+    color: white;
+}
+
+.fourContPDInputRight-3 input{ 
+    width: 707px;
+}
+.fourContPDInputRight-4 input{ 
+    width: 707px;
+    height: 122px;
+}
+
+#form_id_right_fourthCont_pd button{ 
+    background-color: #703BF7;
+    color: white;
+    width: 191px;
+    height: 52px;
+    padding: 14px 34px;
+    border-radius: 6px;
+    border: none;
+    
+}
+/*  Fourth Container -- Property Details Closed */
+
+/* Fifth Container -- Property Details */
+
+/* Fifth Container -- Property Details Closed*/
+
+
+
+
+
+
+/* Media Queries Below */
+
+/* Media for screens that are at 300 px and under */
+@media all and (max-width: 300px) {
+
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 14px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9, .ImageActive8, .ImageActive7,
+    .ImageActive6, .ImageActive5{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4{
+        width: 57px !important;
+        height: 41px !important;
+    }
+
+    .second-container-property-details{ 
+        width: unset;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        display: none;
+    }
+
+    .SECOND-top-image-active-propDetails .img1{ 
+        width: 248px;
+        height: 249px;
+    }
+
+    .third-container-property-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        display: none;
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        width: fit-content;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+        width: 240px;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        width: 240px;
+    }
+}
+/* closed */
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 301px) and (max-width: 400px) {
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .property-name-and-location h2{
+        font-size: 30px;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 16px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9, .ImageActive8, .ImageActive7,
+    .ImageActive6, .ImageActive5{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4{
+        width: 70px !important;
+        height: 50px !important;
+    }
+
+    .second-container-property-details{ 
+        width: 100%;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        display: none;
+    }
+
+    .SECOND-top-image-active-propDetails .img1{ 
+        width: 400px;
+        height: 249px;
+    }
+
+    .third-container-property-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        display: none;
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        /* width: 300px; */
+
+        width: 100%;
+        display: grid;
+        align-self: center;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 100%; */
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+         /* width: 300px; */
+         width: 100%;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        /* width: 300px; */
+        width: auto;
+    }
+}
+/* Media for screens 301 to 400 closed */
+
+
+/* Media for screens that are at 301px to 400px */
+@media all and (min-width: 401px) and (max-width: 500px) {
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .property-name-and-location h2{
+        font-size: 43px;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 16px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9, .ImageActive8, .ImageActive7,
+    .ImageActive6, .ImageActive5{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4{
+        width: 98px !important;
+        height: 50px !important;
+    }
+
+    .second-container-property-details{ 
+        width: 100%;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        display: none;
+    }
+
+    .SECOND-top-image-active-propDetails .img1{ 
+        width: 400px;
+        height: 349px;
+    }
+
+    .third-container-property-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        display: none;
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        /* width: 300px; */
+
+        width: 100%;
+        display: grid;
+        align-self: center;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 100%; */
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+         /* width: 300px; */
+         width: 100%;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        /* width: 300px; */
+        width: auto;
+    }
+}
+/* Media for screens 401 to 500 closed */
+
+
+/* Media for screens that are at 501px to 700px */
+@media all and (min-width: 501px) and (max-width: 700px) {
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .property-name-and-location h2{
+        font-size: 43px;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 16px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9, .ImageActive8, .ImageActive7,
+    .ImageActive6, .ImageActive5{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4{
+        width: 98px !important;
+        height: 50px !important;
+    }
+
+    .second-container-property-details{ 
+        width: 100%;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        display: none;
+    }
+
+    .SECOND-top-image-active-propDetails .img1{ 
+        width: 400px;
+        height: 349px;
+    }
+
+    .third-container-property-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        display: none;
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        /* width: 300px; */
+
+        width: 100%;
+        display: grid;
+        align-self: center;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* width: 100%; */
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+         /* width: 300px; */
+         width: 100%;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        /* width: 300px; */
+        width: auto;
+    }
+}
+/* Media for screens 401 to 500 closed */
+
+/* Media for screens that are at 701px to 900px */
+@media all and (min-width: 701px) and (max-width: 900px) {
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .property-name-and-location h2{
+        font-size: 43px;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 16px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9, .ImageActive8, .ImageActive7{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4,
+    .ImageActive5, .ImageActive6{
+        width: 98px !important;
+        height: 50px !important;
+    }
+
+    .second-container-property-details{ 
+        width: 100%;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        display: none;
+    }
+
+    .SECOND-top-image-active-propDetails .img1{ 
+        width: 600px;
+        height: 449px;
+    }
+
+    .third-container-property-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        /* display: none; */
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        /* width: 300px; */
+
+        width: 100%;
+        display: grid;
+        align-self: center;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* width: 100%; */
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+         /* width: 300px; */
+         width: 100%;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        /* width: 300px; */
+        width: auto;
+    }
+}
+/* Media for screens that is 701 to 900 */
+
+
+/* Media for screens that are at 901px to 1199px */
+@media all and (min-width: 901px) and (max-width: 1199px) {
+    br{
+        display: none;
+    }
+
+    #property-details-main-container{ 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .property-name-and-location{ 
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .property-name-and-location h2{
+        font-size: 43px;
+    }
+
+    .the-loction-icon-and-location-props-details p{
+        font-size: 16px;
+    }
+
+    .the-loction-icon-and-location-props-details{
+        align-items: center;
+    }
+
+    .coverOver-location-propsDetails{
+        gap: 10px;
+    }
+
+    .the-price-top-propsDetail{
+        display: flex;
+        flex-direction: unset;
+        gap: 5px;
+    }
+
+    .ImageActive9{
+        display: none;
+    }
+
+    .ImageActive1, .ImageActive2, .ImageActive3, .ImageActive4,
+    .ImageActive5, .ImageActive6, .ImageActive7, .ImageActive8{
+        width: 98px !important;
+        height: 50px !important;
+    }
+
+    .second-container-property-details{ 
+        width: 100%;
+    }
+    
+
+    .SECOND-top-image-active-propDetails .img2{
+        /* display: none; */
+    }
+
+    .SECOND-top-image-active-propDetails .img1,
+    .SECOND-top-image-active-propDetails .img2{ 
+        width: 400px;
+        height: 449px;
+    }
+
+    .third-container-property-details{
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .leftSide-third-container-property-details{
+        padding: 13px;
+    }
+
+    .bottompart-left-text-third-pd hr{
+        /* display: none; */
+    }
+
+    .leftSide-third-container-property-details{
+        width: fit-content;
+    }
+
+    .roomsNumberAndSize-pd{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+
+    .RightSide-third-container-property-details{
+        padding-left: 13px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        gap: 20px;
+        width: fit-content;
+    }
+
+    .rightSection-thirdCont-pd h2{
+        font-size: 17px;
+    }
+
+    .thirdDivs-Right-contPD p{
+        font-size: 12px;
+    }
+
+    .fourth-cont-propertiesDetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propertiesDetails-leftSide-forth-pd h1{
+        font-size: 25px;
+    }
+
+    .propertiesDetails-leftSide-forth-pd p{
+        font-size: 15px;
+    }
+
+    #form_id_right_fourthCont_pd{
+        padding: 20px 20px;
+        /* width: 300px; */
+
+        width: 100%;
+        display: grid;
+        align-self: center;
+    }
+
+    .fourContPDInputRight-1, .fourContPDInputRight-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* width: 100%; */
+
+    }
+
+    .fourContPDInputRight-1 input, .fourContPDInputRight-2 input,
+    .fourContPDInputRight-3 input, .theLabelAndInputPD input{
+         /* width: 300px; */
+         width: 100%;
+    }
+
+    #form_id_right_fourthCont_pd button{
+        /* width: 300px; */
+        width: auto;
+    }
+}
+/* Media for screens that is 901 to 1199 */
