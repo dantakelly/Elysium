@@ -30,6 +30,7 @@ import ProfilePhotoThree from "../components/assets/Home Page Assets/Profile pho
 
 import swipeBack from "../components/assets/Home Page Assets/swipe back.svg"
 import swipeFoward from "../components/assets/Home Page Assets/swipe foward.svg"
+import aboutus from "./aboutus/page";
 // 
 
 function Home() { 
@@ -70,7 +71,7 @@ function Home() {
               </div>
               <div className="topLeft-Home-Buttons">
                   <button className="topLeft-Home-Button-1"> Learn More </button>
-                  <button className="topLeft-Home-Button-2"> Browse Properties </button>
+                  <Link href="/properties"><button className="topLeft-Home-Button-2">Browse Properties</button></Link>
               </div>
                 <div className="topLeft-Home-Boxes">
                    <div className="topLeftBoxes-Home-1">
